@@ -1,30 +1,36 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
+	 <title>Accessible Portfolio</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
 	<nav role="navigation">
-		<span>Home</span>
-		<span>News</span>
-		<span>About Us</span>
-		<span>Contact us</span>
+		<span aria-label="Home" class="nav1">Home</span>
+		<span aria-label="News" class="nav1">News</span>
+		<span aria-label="About Us" class="nav1">About-Us</span>
+		<span aria-label="Contact Us">Contact-Us</span>
 	</nav>
-	<div role="heading" aria-label="Heading of Portfolio">
-		<h1>Portfolio</h1>
+	<div role="heading"aria-label="Heading of Portfolio">
+		<h1>Goku The Legend</h1>
+	</div>
+	<div id="gokuimg" role="image" aria-label="Image of Super Saiyan Goku">
+		<img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQBDOxwcM2oKpYnBhCm2BA5kodH3cpYLlRsZzy6OawdGmL_Y6CxK--KYI9Lan70y0bjjA&usqp=CAU" alt="Please wait">
 	</div>
 	<div>
-		
+		<p>By undertaking godly ki training with a deity to wield the power of Super Saiyan God in one's natural state, a Saiyan may achieve a divinity-empowered base form, which allows them to use Super Saiyan Blue as the Super Saiyan version of Super Saiyan God and this form surpasses its predecessor in power.</p>
 	</div>
-	<div></div>
-	<div></div>
-	<div></div>
-	<div></div>
-	<div></div>
+	<div role="list" aria-label="SuperSaiyan forms mentioned in list form">
+		<ul>
+			<li role="listitem" aria-label="Super Saiyan 1</">Super Saiyan 1</li>
+			<li role="listitem" aria-label="Super Saiyan 2">Super Saiyan 2</li>
+			<li role="listitem" aria-label="Super Saiyan 3">Super Saiyan 3</li>
+		</ul>
+	</div>
+	
     <script type="text/javascript" src="./script.js">
    </script>
 

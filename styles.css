@@ -1,7 +1,31 @@
 
 /* Your CSS Code here. */
-.body{
+body{
 	margin:0px;
 	padding:0px;
-	background-color: red;
+	background:#EFE1CE;
+}
+nav{
+	padding:10px;
+	background: #c9aeb0;
+	color:whitesmoke;
+}
+nav>span{
+	 font-size:20px;
+     font-weight:600;
+}
+.nav1{
+	margin-right: 22vw;
+}
+#gokuimg{
+	margin-left: 3vw;
+}
+#gokuimg>img{
+	width: 30vw;
+	height: 60vh;
+	border-radius: 10px;
+}
+
+div>h1{
+	margin-left:3vw;
 }
